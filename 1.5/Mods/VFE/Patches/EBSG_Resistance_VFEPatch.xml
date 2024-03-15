@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_AcidImmune"]/damageFactors</xpath>
+        <value><VEF_SecondaryAcidBurn>0</VEF_SecondaryAcidBurn></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_AcidResistance"]/damageFactors</xpath>
+        <value><VEF_SecondaryAcidBurn>0.5</VEF_SecondaryAcidBurn></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_AcidVulnerable"]/damageFactors</xpath>
+        <value><VEF_SecondaryAcidBurn>2</VEF_SecondaryAcidBurn></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_AcidWeakness"]/damageFactors</xpath>
+        <value><VEF_SecondaryAcidBurn>4</VEF_SecondaryAcidBurn></value>
+    </Operation>
+</Patch>
