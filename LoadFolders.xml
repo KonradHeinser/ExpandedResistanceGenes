@@ -8,5 +8,21 @@
         <li IfModActive="SuperheroGenesBase.Mod">1.4/Mods/SuperHeroGenes</li>
         <li IfModActive="SA.Cryoweapons">1.4/Mods/CryoWeapons</li>
 	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+        <li IfModActive="sarg.alphagenes">1.5/Mods/AlphaGenes</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.5/Mods/VFE</li>
+        <li IfModActive="SuperheroGenesBase.Mod">1.5/Mods/SuperHeroGenes</li>
+        <li IfModActive="SA.Cryoweapons">1.5/Mods/CryoWeapons</li>
+	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+        <li IfModActive="sarg.alphagenes">1.6/Mods/AlphaGenes</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.6/Mods/VFE</li>
+        <li IfModActive="SuperheroGenesBase.Mod">1.6/Mods/SuperHeroGenes</li>
+        <li IfModActive="SA.Cryoweapons">1.6/Mods/CryoWeapons</li>
+	</v1.6>
 </loadFolders>
 

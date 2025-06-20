@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef>
+        <defName>EBSG_AcidImmune</defName>
+        <label>acid immune</label> 
+        <description>Carriers of this gene are immune to acid.</description>
+        <iconPath>Genes/EBSG_AcidImmune</iconPath>
+        <displayCategory>ResistanceAndWeakness</displayCategory>
+        <displayOrderInCategory>121</displayOrderInCategory>
+        <damageFactors>
+			<AcidBurn>0</AcidBurn>
+        </damageFactors>
+        <biostatMet>-2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stable</symbol></li>
+                <li><symbol>base</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>AcidDamage</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_AcidResistance</defName>
+        <label>acid resistance</label> 
+        <description>Carriers of this gene are resistant to acid.</description>
+        <iconPath>Genes/EBSG_AcidResistance</iconPath>
+        <displayCategory>ResistanceAndWeakness</displayCategory>
+        <displayOrderInCategory>120.9</displayOrderInCategory>
+        <damageFactors>
+			<AcidBurn>0.5</AcidBurn>
+        </damageFactors>
+        <biostatMet>-1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stable</symbol></li>
+                <li><symbol>base</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>AcidDamage</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_AcidVulnerable</defName>
+        <label>acid vulnerable</label> 
+        <description>Carriers of this gene are vulnerable to acid.</description>
+        <iconPath>Genes/EBSG_AcidVulnerable</iconPath>
+        <displayCategory>ResistanceAndWeakness</displayCategory>
+        <displayOrderInCategory>120.8</displayOrderInCategory>
+        <damageFactors>
+			<AcidBurn>2</AcidBurn>
+        </damageFactors>
+        <biostatMet>1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>metling</symbol></li>
+                <li><symbol>corroding</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>AcidDamage</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_AcidWeakness</defName>
+        <label>acid weakness</label> 
+        <description>Carriers of this gene are very weak to acid.</description>
+        <iconPath>Genes/EBSG_AcidWeakness</iconPath>
+        <displayCategory>ResistanceAndWeakness</displayCategory>
+        <displayOrderInCategory>120.7</displayOrderInCategory>
+        <damageFactors>
+			<AcidBurn>4</AcidBurn>
+        </damageFactors>
+        <biostatMet>2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>metling</symbol></li>
+                <li><symbol>corroding</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>AcidDamage</li>
+        </exclusionTags>
+    </GeneDef>
+</Defs>

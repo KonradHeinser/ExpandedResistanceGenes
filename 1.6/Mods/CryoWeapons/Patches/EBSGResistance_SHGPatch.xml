@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_FrostbiteImmune"]/damageFactors</xpath>
+        <value>
+            <CW_CryoDamagePistolBullet>0</CW_CryoDamagePistolBullet>
+            <CW_CryoDamageRifleBullet>0</CW_CryoDamageRifleBullet>
+            <CW_CryoDamageShell>0</CW_CryoDamageShell>
+            <CW_CryoDamageRailShot>0</CW_CryoDamageRailShot>
+            <CW_SecondaryFrostBurn>0</CW_SecondaryFrostBurn>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_FrostbiteResistance"]/damageFactors</xpath>
+        <value>
+            <CW_CryoDamagePistolBullet>0.5</CW_CryoDamagePistolBullet>
+            <CW_CryoDamageRifleBullet>0.5</CW_CryoDamageRifleBullet>
+            <CW_CryoDamageShell>0.5</CW_CryoDamageShell>
+            <CW_CryoDamageRailShot>0.5</CW_CryoDamageRailShot>
+            <CW_SecondaryFrostBurn>0.5</CW_SecondaryFrostBurn>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_FrostbiteVulnerable"]/damageFactors</xpath>
+        <value>
+            <CW_CryoDamagePistolBullet>2</CW_CryoDamagePistolBullet>
+            <CW_CryoDamageRifleBullet>2</CW_CryoDamageRifleBullet>
+            <CW_CryoDamageShell>2</CW_CryoDamageShell>
+            <CW_CryoDamageRailShot>2</CW_CryoDamageRailShot>
+            <CW_SecondaryFrostBurn>2</CW_SecondaryFrostBurn>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_FrostbiteWeakness"]/damageFactors</xpath>
+        <value>
+            <CW_CryoDamagePistolBullet>4</CW_CryoDamagePistolBullet>
+            <CW_CryoDamageRifleBullet>4</CW_CryoDamageRifleBullet>
+            <CW_CryoDamageShell>4</CW_CryoDamageShell>
+            <CW_CryoDamageRailShot>4</CW_CryoDamageRailShot>
+            <CW_SecondaryFrostBurn>4</CW_SecondaryFrostBurn>
+        </value>
+    </Operation>
+</Patch>
