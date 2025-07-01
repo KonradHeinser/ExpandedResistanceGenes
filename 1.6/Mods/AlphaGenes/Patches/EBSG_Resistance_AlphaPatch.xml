@@ -1,48 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/GeneDef[defName="AG_FrostbiteResistance"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+        <xpath>/Defs/GeneDef[defName="AG_FrostbiteResistance"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
 	    <value><hideGene>true</hideGene></value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/GeneDef[defName="AG_FrostbiteVulnerability"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+        <xpath>/Defs/GeneDef[defName="AG_FrostbiteVulnerability"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
 	    <value><hideGene>true</hideGene></value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/GeneDef[defName="AG_AcidImmunity"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+        <xpath>/Defs/GeneDef[defName="AG_AcidImmunity"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
 	    <value><hideGene>true</hideGene></value>
-    </Operation>
-
-    <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/XenotypeDef/genes/li[text()="AG_FrostbiteResistance"]</xpath>
-        <match Class="PatchOperationReplace">
-            <xpath>/Defs/XenotypeDef/genes/li[text()="AG_FrostbiteResistance"]</xpath>
-	        <value>
-		        <li>EBSG_FrostbiteResistance</li>
-	        </value>
-        </match>
-    </Operation>
-
-    <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/XenotypeDef/genes/li[text()="AG_FrostbiteVulnerability"]</xpath>
-        <match Class="PatchOperationReplace">
-            <xpath>/Defs/XenotypeDef/genes/li[text()="AG_FrostbiteVulnerability"]</xpath>
-	        <value>
-		        <li>EBSG_FrostbiteResistance</li>
-	        </value>
-        </match>
-    </Operation>
-
-    <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/XenotypeDef/genes/li[text()="AG_AcidImmunity"]</xpath>
-        <match Class="PatchOperationReplace">
-            <xpath>/Defs/XenotypeDef/genes/li[text()="AG_AcidImmunity"]</xpath>
-	        <value>
-		        <li>EBSG_FrostbiteResistance</li>
-	        </value>
-        </match>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
