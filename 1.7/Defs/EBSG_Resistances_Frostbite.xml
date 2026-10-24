@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef>
+        <defName>EBSG_FrostbiteImmune</defName>
+        <label>frostbite immune</label> 
+        <description>Carriers of this gene are immune to the damaging effects of extreme cold, though they can still catch hypothermia.</description>
+        <iconPath>Genes/EBSG_FrostbiteImmune</iconPath>
+        <displayCategory>ResistanceAndWeakness</displayCategory>
+        <displayOrderInCategory>120</displayOrderInCategory>
+        <damageFactors>
+			<Frostbite>0</Frostbite>
+        </damageFactors>
+        <biostatMet>-2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>warm</symbol></li>
+                <li><symbol>unfrozen</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>FrostbiteDamage</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_FrostbiteResistance</defName>
+        <label>frostbite resistance</label> 
+        <description>Carriers of this gene are resistant to the damaging effects of extreme cold, though they will still feel the cold nipping at them.</description>
+        <iconPath>Genes/EBSG_FrostbiteResistance</iconPath>
+        <displayCategory>ResistanceAndWeakness</displayCategory>
+        <displayOrderInCategory>119.9</displayOrderInCategory>
+        <damageFactors>
+			<Frostbite>0.5</Frostbite>
+        </damageFactors>
+        <biostatMet>-1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>warm</symbol></li>
+                <li><symbol>unfrozen</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>FrostbiteDamage</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_FrostbiteVulnerable</defName>
+        <label>frostbite vulnerable</label> 
+        <description>Carriers of this gene are vulnerable to the damaging effects of extreme cold, making them take more damage from frostbite.</description>
+        <iconPath>Genes/EBSG_FrostbiteVulnerable</iconPath>
+        <displayCategory>ResistanceAndWeakness</displayCategory>
+        <displayOrderInCategory>119.8</displayOrderInCategory>
+        <damageFactors>
+			<Frostbite>2</Frostbite>
+        </damageFactors>
+        <biostatMet>1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>chilly</symbol></li>
+                <li><symbol>freezing</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>FrostbiteDamage</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_FrostbiteWeakness</defName>
+        <label>frostbite weakness</label> 
+        <description>Carriers of this gene are very weak to the damaging effects of extreme cold, making them take more damage from frostbite.</description>
+        <iconPath>Genes/EBSG_FrostbiteWeakness</iconPath>
+        <displayCategory>ResistanceAndWeakness</displayCategory>
+        <displayOrderInCategory>119.7</displayOrderInCategory>
+        <damageFactors>
+			<Frostbite>4</Frostbite>
+        </damageFactors>
+        <biostatMet>2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>chilly</symbol></li>
+                <li><symbol>freezing</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>FrostbiteDamage</li>
+        </exclusionTags>
+    </GeneDef>
+</Defs>

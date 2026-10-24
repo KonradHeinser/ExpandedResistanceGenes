@@ -24,5 +24,13 @@
         <li IfModActive="SuperheroGenesBase.Mod">1.6/Mods/SuperHeroGenes</li>
         <li IfModActive="SA.Cryoweapons">1.6/Mods/CryoWeapons</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>1.7</li>
+        <li IfModActive="sarg.alphagenes">1.7/Mods/AlphaGenes</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.7/Mods/VFE</li>
+        <li IfModActive="SuperheroGenesBase.Mod">1.7/Mods/SuperHeroGenes</li>
+        <li IfModActive="SA.Cryoweapons">1.7/Mods/CryoWeapons</li>
+	</v1.7>
 </loadFolders>
 

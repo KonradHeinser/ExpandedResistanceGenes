@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/GeneDef[defName="AG_FrostbiteResistance"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
+	    <value><hideGene>true</hideGene></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/GeneDef[defName="AG_FrostbiteVulnerability"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
+	    <value><hideGene>true</hideGene></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/GeneDef[defName="AG_AcidImmunity"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
+	    <value><hideGene>true</hideGene></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_AcidImmune"]/damageFactors</xpath>
+        <value><AG_AcidSpit>0</AG_AcidSpit></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_AcidResistance"]/damageFactors</xpath>
+        <value><AG_AcidSpit>0.5</AG_AcidSpit></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_AcidVulnerable"]/damageFactors</xpath>
+        <value><AG_AcidSpit>2</AG_AcidSpit></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_AcidWeakness"]/damageFactors</xpath>
+        <value><AG_AcidSpit>4</AG_AcidSpit></value>
+    </Operation>
+</Patch>

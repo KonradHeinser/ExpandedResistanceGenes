@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_FrostbiteImmune"]/damageFactors</xpath>
+        <value><SHG_Ice>0</SHG_Ice></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_FrostbiteResistance"]/damageFactors</xpath>
+        <value><SHG_Ice>0.5</SHG_Ice></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_FrostbiteVulnerable"]/damageFactors</xpath>
+        <value><SHG_Ice>2</SHG_Ice></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="EBSG_FrostbiteWeakness"]/damageFactors</xpath>
+        <value><SHG_Ice>4</SHG_Ice></value>
+    </Operation>
+</Patch>
